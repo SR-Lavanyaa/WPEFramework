@@ -55,10 +55,14 @@ ENUM_CONVERSION_END(JsonData::Messenger::UserupdateParamsData::ActionType);
 // Streamer
 
 ENUM_CONVERSION_BEGIN(JsonData::Streamer::TypeType)
-    { JsonData::Streamer::TypeType::STUBBED, _TXT("stubbed") },
-    { JsonData::Streamer::TypeType::DVB, _TXT("dvb") },
-    { JsonData::Streamer::TypeType::ATSC, _TXT("atsc") },
-    { JsonData::Streamer::TypeType::VOD, _TXT("vod") },
+    { JsonData::Streamer::TypeType::UNDEFINED, _TXT("undefined") },
+    { JsonData::Streamer::TypeType::CABLE, _TXT("cable") },
+    { JsonData::Streamer::TypeType::HANDHELD, _TXT("handheld") },
+    { JsonData::Streamer::TypeType::SATELLITE, _TXT("satellite") },
+    { JsonData::Streamer::TypeType::TERRESTRIAL, _TXT("terrestrial") },
+    { JsonData::Streamer::TypeType::DAB, _TXT("dab") },
+    { JsonData::Streamer::TypeType::IP, _TXT("ip") },
+    { JsonData::Streamer::TypeType::RF, _TXT("rf") },
 ENUM_CONVERSION_END(JsonData::Streamer::TypeType);
 
 ENUM_CONVERSION_BEGIN(JsonData::Streamer::DrmType)

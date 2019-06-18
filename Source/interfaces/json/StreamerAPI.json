@@ -13,10 +13,14 @@
     "streamtype": {
       "type": "string",
       "enum": [
-        "stubbed",
-        "dvb",
-        "atsc",
-        "vod"
+        "undefined",
+        "cable",
+        "handheld",
+        "satellite",
+        "terrestrial",
+        "dab",
+        "rf",
+        "ip"
       ],
       "description": "Stream type",
       "example": "vod"

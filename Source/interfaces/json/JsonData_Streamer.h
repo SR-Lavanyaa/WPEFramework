@@ -37,10 +37,14 @@ namespace JsonData {
 
         // Stream type
         enum class TypeType {
-            STUBBED,
-            DVB,
-            ATSC,
-            VOD
+            UNDEFINED,
+            CABLE,
+            HANDHELD,
+            SATELLITE,
+            TERRESTRIAL,
+            DAB,
+            RF,
+            IP
         };
 
         // Common classes
